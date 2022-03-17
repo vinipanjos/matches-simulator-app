@@ -16,6 +16,20 @@ public class Place implements Parcelable {
         image = in.readString();
     }
 
+<<<<<<< HEAD
+=======
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(name);
+        dest.writeString(image);
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+>>>>>>> b6deb19602ff750c3be5e2baeb901ed5a478c783
     public static final Creator<Place> CREATOR = new Creator<Place>() {
         @Override
         public Place createFromParcel(Parcel in) {
@@ -43,6 +57,7 @@ public class Place implements Parcelable {
     public void setImage(String image) {
         this.image = image;
     }
+<<<<<<< HEAD
 
     @Override
     public int describeContents() {
@@ -54,4 +69,6 @@ public class Place implements Parcelable {
         parcel.writeString(name);
         parcel.writeString(image);
     }
+=======
+>>>>>>> b6deb19602ff750c3be5e2baeb901ed5a478c783
 }

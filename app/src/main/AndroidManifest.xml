@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Simulator">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,17 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".DetailActivity"
             android:exported="true"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.Simulator.NoActionBar"/>
+=======
+            android:name=".ui.DetailActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.MainActivity"
+            android:theme="@style/Theme.Simulator.NoActionBar" />
+>>>>>>> b6deb19602ff750c3be5e2baeb901ed5a478c783
     </application>
 
 </manifest>

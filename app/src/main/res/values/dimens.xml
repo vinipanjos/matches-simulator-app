@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin_default">16dp</dimen>
     <dimen name="team_image_size">120dp</dimen>
     <dimen name="app_bar_height">180dp</dimen>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="team_image_size">120dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+>>>>>>> b6deb19602ff750c3be5e2baeb901ed5a478c783
 </resources>

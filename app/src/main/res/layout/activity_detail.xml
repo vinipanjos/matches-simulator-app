@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+<<<<<<< HEAD
     tools:context=".DetailActivity">
+=======
+    tools:context=".ui.DetailActivity">
+>>>>>>> b6deb19602ff750c3be5e2baeb901ed5a478c783
 
     <!-- Adding an image to the prominent top app bar:
          Reference: https://material.io/components/app-bars-top/android#regular-top-app-bar -->
@@ -162,7 +166,10 @@
                 app:layout_constraintStart_toEndOf="@+id/tvVersus"
                 app:layout_constraintTop_toTopOf="@+id/ivAwayTeam"
                 tools:text="99" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6deb19602ff750c3be5e2baeb901ed5a478c783
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 
