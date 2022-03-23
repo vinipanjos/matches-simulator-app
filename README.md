@@ -13,4 +13,5 @@ App Android Nativo de Simulação de Partidas. Este repositório foi organizado 
 
 FONTES: 
 
-    - [https://docs.google.com/presentation/d/12fe7wVtOs-vXnzzX-_ywEpq4p-BYkPS1/edit#slide=id.p17]
+    - [Java e Kotlin juntos !? Construindo apps Android](https://docs.google.com/presentation/d/1rip7E34S50L5tC2JmrII3APE4QKvAwku/edit#slide=id.g10a4cd88d6f_0_206)
+    - [Explorando o Firebase Para Apps Android Resilientes](https://docs.google.com/presentation/d/12fe7wVtOs-vXnzzX-_ywEpq4p-BYkPS1/edit#slide=id.p17)
